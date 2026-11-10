@@ -92,3 +92,22 @@ Grad-CAM was used to generate visual heatmaps highlighting image regions that in
 ## Disclaimer
 
 This project is developed for academic and educational purposes. It is not a certified medical diagnostic system and should not be used for clinical decision-making.
+## Results and Visualizations
+
+### 1. Grad-CAM Explainability
+
+The Grad-CAM visualization highlights image regions that influence the model's pneumonia prediction.
+
+![Grad-CAM Output](results/gradcam_output.png)
+
+### 2. Confusion Matrix – Custom CNN
+
+![Custom CNN Confusion Matrix](results/custom_cnn_cm.png)
+
+### 3. Confusion Matrix – ResNet-18 Feature Extractor
+
+![Frozen ResNet Confusion Matrix](results/resnet_frozen_cm.png)
+
+### 4. Confusion Matrix – Fine-tuned ResNet-18
+
+![Fine-tuned ResNet Confusion Matrix](results/resnet_finetuned_cm.png)
